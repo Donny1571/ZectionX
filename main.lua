@@ -239,6 +239,9 @@ local function getEquipped()
 	return {["Object"] = obj, ["Type"] = typetext}
 end
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DonnyWisp/ZectionX/main/main.lua", true))()
+local Window = Library.CreateLib("TITLE", "DarkTheme")
+
 local Combat = window:NewTab("Combat")
 local Blatant = window:NewTab("Blatant")
 local Render = window:NewTab("Render")
