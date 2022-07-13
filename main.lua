@@ -676,7 +676,7 @@ local shopthingyshopshop = debug.getupvalue(require(game:GetService("ReplicatedS
 local oldnexttier
 local oldtiered
 local bypassstpidshoptiers = false
-local ShopTierBypass = Private:NewSection("ShopTierBypass")
+local ShopTierBypass = Blatant:NewSection("ShopTierBypass")
 ShopTierBypass:NewToggle("ShopTierBypass", "Skipps tiers", function(state)
   if state then
    if (bypassstpidshoptiers) then
@@ -696,4 +696,3 @@ ShopTierBypass:NewToggle("ShopTierBypass", "Skipps tiers", function(state)
         end
     end
 end)
-
