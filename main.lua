@@ -5,9 +5,9 @@ local Window = Library.CreateLib("TITLE", "DarkTheme")
 
 -- Tabs
 
-local Combat = window:NewTab("Combat")
-local Blatant = window:NewTab("Blatant")
-local Render = window:NewTab("Render")
-local Utility = window:NewTab("Utility")
-local World = window:NewTab("World")
-local ExecuterInformation = window:NewTab("Executer Information")
+local Combat = Window:NewTab("Combat")
+local Blatant = Window:NewTab("Blatant")
+local Render = Window:NewTab("Render")
+local Utility = Window:NewTab("Utility")
+local World = Window:NewTab("World")
+local ExecuterInformation = Window:NewTab("Executer Information")
